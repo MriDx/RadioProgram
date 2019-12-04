@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        android:title="Home"
+        android:id="@+id/home"
+        android:titleCondensed="Home"
+        />
+    <item
+        android:icon="@drawable/ic_earphone"
+        app:showAsAction="always"
+        android:title="Radio Programs"
+        android:id="@+id/radioProgram"
+        android:titleCondensed="Radio Programs"
+        />
+    <item
+        android:icon="@drawable/ic_about"
+        app:showAsAction="always"
+        android:title="About us"
+        android:id="@+id/aboutUs"
+        android:titleCondensed="About us"
+        />
+    <item
+        android:icon="@drawable/ic_contact"
+        app:showAsAction="always"
+        android:title="Contact us"
+        android:id="@+id/contactUs"
+        android:titleCondensed="Contact us"
+        />
+
+</menu>
